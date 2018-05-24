@@ -4,5 +4,5 @@
 
 def roll
   myArray = [1..6]
-  myArray.sample(1+ myArray.count)
+  myArray.sample(1+ rand(myArray.count))
 end
