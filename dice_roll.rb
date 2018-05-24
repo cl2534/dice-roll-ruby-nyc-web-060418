@@ -3,6 +3,6 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  myArray = [1..6]
+  myArray = [1,2,3,4,5,6]
   myArray.sample(1+ rand(myArray.count))
 end
